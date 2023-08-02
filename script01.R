@@ -39,11 +39,12 @@ cidades[1]
 nome_e_idade <- c("jenifer",26)
 #em vetores de strings e numeros, o numero eh transformadom em string
 #pode-se realizar operaçoes de vetores com tamanhos multiplos
-vetor01 <- c(2,2,4,5,7,9)
+vetor01 <- c(2,2,4,5)
 vetor02 <- c(3,4,5)
 soma <- vetor01 + vetor02
 #matrizes
 mat <- matrix(vetor01,nrow = 2)
+mat
 #dataframe, permite mais de um tipo de valores 
 df <- data.frame(
   aluno= c("jenifer","michele","cristina"),
